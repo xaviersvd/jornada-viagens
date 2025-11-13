@@ -1,0 +1,74 @@
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 38px 48px;
+  position: relative;
+}
+
+body {
+  align-items: flex-start;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.navigation-menu {
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-tertiary-color);
+}
+
+nav {
+  display: none;
+}
+
+.list-links {
+  list-style: none;
+  font-family: var(--font-family);
+}
+
+.list-links li {
+  margin: 16px 0 15px 20px;
+}
+
+.list-links li a {
+  color: var(--text-secundary-color);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    margin-top: 0;
+    width: 467px;
+  }
+  .navigation-menu label {
+    display: none;
+  }
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .list-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  .list-links li {
+  margin: 16px auto
+}
+}

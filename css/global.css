@@ -6,6 +6,8 @@
 }
 
 :root {
+  --font-family: "Montserrat";
+
   --primary-color: #8f0101;
   --secundary-color: #b81515;
 

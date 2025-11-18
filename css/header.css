@@ -17,11 +17,11 @@ body {
   height: 64px;
 }
 
-.img-mobile{
+.img-mobile {
   display: block;
 }
 
-.img-desktop{
+.img-desktop {
   display: none;
 }
 
@@ -77,32 +77,29 @@ nav {
     padding: 0;
   }
   .list-links li {
-  margin: 16px auto
-}
+    margin: 16px auto;
+  }
 }
 
-@media screen and (min-width: 1024px){
-
-  header{
+@media screen and (min-width: 1024px) {
+  header {
     padding: 38px 120px;
   }
 
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
   }
 
-  .img-desktop{
+  .img-desktop {
     display: block;
   }
 
-  .img-mobile{
+  .img-mobile {
     display: none;
   }
 
-  .navigation-menu a:hover{
-    color: var(--primary-color)
-    
+  .navigation-menu a:hover {
+    color: var(--primary-color);
   }
-
 }
